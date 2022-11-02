@@ -1,0 +1,38 @@
+.home-container{
+    width: 100%;
+    height: min-content;
+
+    h2{
+        padding-top: 50px;
+        padding-bottom: 20px;
+        margin: 0 auto;
+        width: fit-content;
+    }
+
+    .hero{
+        width: 80%;
+        height: 400px;
+        margin: 0 auto;
+        background-image: url(../images/homeHero.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    form{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: min-content;
+
+        label{
+            margin: 0 auto;
+        }
+
+        input{
+            margin: 0 auto;
+            width: 30%;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.create-container{
+    width: 100%;
+    height: min-content;
+
+
+
+    form{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: min-content;
+
+        label{
+            margin: 0 auto;
+            padding-top: 5px;
+            padding-bottom: 10px;
+        }
+
+        input{
+            margin: 0 auto;
+            width: 30%;
+        }
+        button{
+            margin: 0 auto;
+            width: 30%;
+        }
+    }
+}
